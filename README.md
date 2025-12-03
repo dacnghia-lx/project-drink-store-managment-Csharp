@@ -95,8 +95,7 @@ Please make sure to update tests as appropriate.
 
 ## About our team 🤝:
 1.Backend Developer:
-- [Facebook](https://www.facebook.com/profile.php?id=100014630312892) - Đặng Quốc Huy
+- Lê Hải Nam
 
 2.Frontend Developer
-- [Facebook](https://www.facebook.com/hoigreen) - Truong Quoc Hoi
-- [LinkedIn](https://www.linkedin.com/in/hoigreen/) - Hoi Truong Quoc
+- Nguyễn Đắc Tuấn Nghĩa
