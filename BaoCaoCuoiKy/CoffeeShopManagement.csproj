@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props" Condition="Exists('..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{846A09DC-E31B-42DC-8386-80007AAEF01A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CoffeeShopManagement</RootNamespace>
+    <AssemblyName>CoffeeShopManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.Charts.WinForms, Version=1.0.9.0, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.Charts.WinForms.1.0.9\lib\net472\Guna.Charts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.160.1000.6\lib\net462\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.cs" />
+    <Compile Include="Form_Begin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Begin.Designer.cs">
+      <DependentUpon>Form_Begin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Login_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Login_Admin.Designer.cs">
+      <DependentUpon>Form_Login_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main_Admin.Designer.cs">
+      <DependentUpon>Form_Main_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main_Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main_Staff.Designer.cs">
+      <DependentUpon>Form_Main_Staff.cs</DependentUpon>
+    </Compile>
+    <None Include="Global.cs.example" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User Control Admin\UC_ADMIN_ORDER.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control Admin\UC_ADMIN_ORDER.Designer.cs">
+      <DependentUpon>UC_ADMIN_ORDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control Admin\UC_ADMIN_MENU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control Admin\UC_ADMIN_MENU.Designer.cs">
+      <DependentUpon>UC_ADMIN_MENU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control Admin\UC_ADMIN_STAFF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control Admin\UC_ADMIN_STAFF.Designer.cs">
+      <DependentUpon>UC_ADMIN_STAFF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control Admin\UC_ADMIN_STATIS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control Admin\UC_ADMIN_STATIS.Designer.cs">
+      <DependentUpon>UC_ADMIN_STATIS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control Staff\UC_STAFF_CREATEORDER.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control Staff\UC_STAFF_CREATEORDER.Designer.cs">
+      <DependentUpon>UC_STAFF_CREATEORDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control Staff\UC_STAFF_TABLE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control Staff\UC_STAFF_TABLE.Designer.cs">
+      <DependentUpon>UC_STAFF_TABLE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\ImageHelper.cs" />
+    <Compile Include="XL_ADMIN.cs" />
+    <Compile Include="XL_CATEGORY.cs" />
+    <Compile Include="XL_TABLE.cs" />
+    <Compile Include="XL_WORK_TIME.cs" />
+    <Compile Include="XL_DETAIL_ORDER.cs" />
+    <Compile Include="XL_ORDER.cs" />
+    <Compile Include="XL_MENU.cs" />
+    <Compile Include="XL_WORK_DAY.cs" />
+    <Compile Include="XL_STAFF.cs" />
+    <EmbeddedResource Include="Form_Begin.resx">
+      <DependentUpon>Form_Begin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Login_Admin.resx">
+      <DependentUpon>Form_Login_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Main_Admin.resx">
+      <DependentUpon>Form_Main_Admin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Main_Staff.resx">
+      <DependentUpon>Form_Main_Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="User Control Admin\UC_ADMIN_ORDER.resx">
+      <DependentUpon>UC_ADMIN_ORDER.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control Admin\UC_ADMIN_MENU.resx">
+      <DependentUpon>UC_ADMIN_MENU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control Admin\UC_ADMIN_STAFF.resx">
+      <DependentUpon>UC_ADMIN_STAFF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control Admin\UC_ADMIN_STATIS.resx">
+      <DependentUpon>UC_ADMIN_STATIS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control Staff\UC_STAFF_CREATEORDER.resx">
+      <DependentUpon>UC_STAFF_CREATEORDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control Staff\UC_STAFF_TABLE.resx">
+      <DependentUpon>UC_STAFF_TABLE.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Simple Coffee Cup Logo Template Download on Pngtree.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props'))" />
+  </Target>
+</Project>
