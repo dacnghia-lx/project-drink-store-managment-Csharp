@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dg_menu = new System.Windows.Forms.DataGridView();
             this.col_ma = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.col_ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -43,7 +43,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btn_save = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_cancelSave = new Guna.UI2.WinForms.Guna2Button();
             this.panelControl = new Guna.UI2.WinForms.Guna2Panel();
             this.comboBoxType = new Guna.UI2.WinForms.Guna2ComboBox();
             this.textBoxPrice = new Guna.UI2.WinForms.Guna2TextBox();
@@ -62,15 +61,15 @@
             // 
             this.dg_menu.AllowUserToAddRows = false;
             this.dg_menu.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.MediumAquamarine;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(3);
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.LightGoldenrodYellow;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dg_menu.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.MediumAquamarine;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.Padding = new System.Windows.Forms.Padding(3);
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.LightGoldenrodYellow;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dg_menu.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dg_menu.ColumnHeadersHeight = 40;
             this.dg_menu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.col_ma,
@@ -81,9 +80,9 @@
             this.dg_menu.Location = new System.Drawing.Point(28, 498);
             this.dg_menu.Margin = new System.Windows.Forms.Padding(4);
             this.dg_menu.Name = "dg_menu";
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            this.dg_menu.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
+            this.dg_menu.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dg_menu.RowTemplate.Height = 32;
             this.dg_menu.Size = new System.Drawing.Size(1626, 474);
             this.dg_menu.TabIndex = 0;
@@ -206,15 +205,6 @@
             this.btn_save.UseTransparentBackground = true;
             this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 
-            // btn_cancelSave
-            // 
-            this.btn_cancelSave.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_cancelSave.ForeColor = System.Drawing.Color.White;
-            this.btn_cancelSave.Location = new System.Drawing.Point(0, 0);
-            this.btn_cancelSave.Name = "btn_cancelSave";
-            this.btn_cancelSave.Size = new System.Drawing.Size(180, 45);
-            this.btn_cancelSave.TabIndex = 38;
-            // 
             // panelControl
             // 
             this.panelControl.BackColor = System.Drawing.Color.White;
@@ -229,7 +219,6 @@
             this.panelControl.Controls.Add(this.btnCreate);
             this.panelControl.Controls.Add(this.btnDelete);
             this.panelControl.Controls.Add(this.btnEdit);
-            this.panelControl.Controls.Add(this.btn_cancelSave);
             this.panelControl.Controls.Add(this.btn_save);
             this.panelControl.Controls.Add(this.label5);
             this.panelControl.Controls.Add(this.label7);
@@ -461,7 +450,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
         private Guna.UI2.WinForms.Guna2Button btn_save;
-        private Guna.UI2.WinForms.Guna2Button btn_cancelSave;
         private Guna.UI2.WinForms.Guna2Panel panelControl;
         private Guna.UI2.WinForms.Guna2Button btnCreate;
         private Guna.UI2.WinForms.Guna2Button btnDelete;

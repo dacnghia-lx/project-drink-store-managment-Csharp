@@ -236,7 +236,6 @@ namespace BaoCaoCuoiKy.User_Control
         private void disableButton()
         {
             btn_save.Enabled = false;
-            btn_cancelSave.Enabled = false;
             btnEdit.Enabled = false;
             btnDelete.Enabled = false;
             btnClear.Enabled = false;
