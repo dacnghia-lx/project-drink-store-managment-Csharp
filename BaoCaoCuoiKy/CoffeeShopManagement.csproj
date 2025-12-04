@@ -160,11 +160,9 @@
     <Compile Include="XL_ADMIN.cs" />
     <Compile Include="XL_CATEGORY.cs" />
     <Compile Include="XL_TABLE.cs" />
-    <Compile Include="XL_WORK_TIME.cs" />
     <Compile Include="XL_DETAIL_ORDER.cs" />
     <Compile Include="XL_ORDER.cs" />
     <Compile Include="XL_MENU.cs" />
-    <Compile Include="XL_WORK_DAY.cs" />
     <Compile Include="XL_STAFF.cs" />
     <EmbeddedResource Include="Form_Begin.resx">
       <DependentUpon>Form_Begin.cs</DependentUpon>

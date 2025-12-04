@@ -62,7 +62,7 @@ namespace BaoCaoCuoiKy
                 }
 
                 // Lấy đầy đủ cột (bao gồm Anh). Bạn có thể đổi sang các cột cụ thể nếu cần.
-                string query = "SELECT * FROM NHANVIEN";
+                string query = "SELECT * FROM NHANVIEN WHERE TrangThai = 1";
                 using (adapter = new SqlDataAdapter(query, connection))
                 {
                     dataSet = new DataSet();
@@ -124,7 +124,7 @@ namespace BaoCaoCuoiKy
                     connection.Open();
                 }
 
-                string selectCommand = "SELECT COUNT(*) FROM NHANVIEN";
+                string selectCommand = "SELECT COUNT(*) FROM NHANVIEN WHERE TrangThai = 1";
                 using (SqlCommand command = new SqlCommand(selectCommand, connection))
                 {
                     int count = Convert.ToInt32(command.ExecuteScalar());
@@ -233,8 +233,8 @@ namespace BaoCaoCuoiKy
                 if (connection.State != ConnectionState.Open)
                     connection.Open();
 
-                string deleteCommand = "DELETE FROM NHANVIEN WHERE MaNV = @MaNV";
-                using (SqlCommand command = new SqlCommand(deleteCommand, connection))
+                string updateCommand = "UPDATE NHANVIEN SET TrangThai = 0 WHERE MaNV = @MaNV";
+                using (SqlCommand command = new SqlCommand(updateCommand, connection))
                 {
                     command.Parameters.AddWithValue("@MaNV", MaNV);
                     command.ExecuteNonQuery();
