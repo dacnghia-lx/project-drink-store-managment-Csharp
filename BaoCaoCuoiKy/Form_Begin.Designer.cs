@@ -45,31 +45,31 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(713, 40);
+            this.lblTitle.Location = new System.Drawing.Point(615, 34);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(552, 42);
+            this.lblTitle.Size = new System.Drawing.Size(482, 42);
             this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "Quản lý quán cà phê Tình Bạn";
+            this.lblTitle.Text = "Quản lý cửa hàng đồ uống";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.picLogo);
             this.panel1.Controls.Add(this.lblTitle);
             this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1921, 125);
+            this.panel1.Size = new System.Drawing.Size(1921, 127);
             this.panel1.TabIndex = 4;
             // 
             // picLogo
             // 
-            this.picLogo.Image = global::CoffeeShopManagement.Properties.Resources.Simple_Coffee_Cup_Logo_Template_Download_on_Pngtree;
+            this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
             this.picLogo.InitialImage = global::CoffeeShopManagement.Properties.Resources.Simple_Coffee_Cup_Logo_Template_Download_on_Pngtree;
             this.picLogo.Location = new System.Drawing.Point(0, -3);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(137, 128);
+            this.picLogo.Size = new System.Drawing.Size(135, 128);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLogo.TabIndex = 5;
             this.picLogo.TabStop = false;

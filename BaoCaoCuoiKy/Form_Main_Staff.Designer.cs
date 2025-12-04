@@ -49,9 +49,9 @@
             this.panel_staff_container.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.panel_staff_container.CausesValidation = false;
             this.panel_staff_container.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_staff_container.Location = new System.Drawing.Point(240, 71);
+            this.panel_staff_container.Location = new System.Drawing.Point(240, 89);
             this.panel_staff_container.Name = "panel_staff_container";
-            this.panel_staff_container.Size = new System.Drawing.Size(1680, 1009);
+            this.panel_staff_container.Size = new System.Drawing.Size(1680, 991);
             this.panel_staff_container.TabIndex = 0;
             // 
             // btnExitWindow
@@ -66,7 +66,7 @@
             this.btnExitWindow.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnExitWindow.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnExitWindow.FillColor = System.Drawing.Color.Red;
-            this.btnExitWindow.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold);
+            this.btnExitWindow.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnExitWindow.ForeColor = System.Drawing.Color.White;
             this.btnExitWindow.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnExitWindow.ImageSize = new System.Drawing.Size(40, 40);
@@ -89,39 +89,39 @@
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Location = new System.Drawing.Point(0, 0);
             this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(1920, 71);
+            this.panelHeader.Size = new System.Drawing.Size(1920, 89);
             this.panelHeader.TabIndex = 7;
             // 
             // lblLogoDescription
             // 
             this.lblLogoDescription.AutoSize = true;
-            this.lblLogoDescription.Font = new System.Drawing.Font("Roboto Light", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogoDescription.Location = new System.Drawing.Point(106, 38);
+            this.lblLogoDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogoDescription.Location = new System.Drawing.Point(127, 38);
             this.lblLogoDescription.Name = "lblLogoDescription";
-            this.lblLogoDescription.Size = new System.Drawing.Size(136, 18);
+            this.lblLogoDescription.Size = new System.Drawing.Size(138, 18);
             this.lblLogoDescription.TabIndex = 8;
             this.lblLogoDescription.Text = "Dành cho nhân viên";
             // 
             // lblLogo
             // 
             this.lblLogo.AutoSize = true;
-            this.lblLogo.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblLogo.Location = new System.Drawing.Point(88, 14);
+            this.lblLogo.Location = new System.Drawing.Point(126, 7);
             this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(154, 19);
+            this.lblLogo.Size = new System.Drawing.Size(218, 20);
             this.lblLogo.TabIndex = 7;
-            this.lblLogo.Text = "Quản lý quán coffee";
+            this.lblLogo.Text = "Quản lý cửa hàng đồ uống";
             // 
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.BorderRadius = 10;
-            this.guna2PictureBox2.Image = global::CoffeeShopManagement.Properties.Resources.Simple_Coffee_Cup_Logo_Template_Download_on_Pngtree;
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(-2, -2);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(-2, -13);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(91, 71);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(136, 116);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 1;
             this.guna2PictureBox2.TabStop = false;
@@ -129,6 +129,7 @@
             // 
             // panelSidebar
             // 
+            this.panelSidebar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.panelSidebar.BorderColor = System.Drawing.Color.Silver;
             this.panelSidebar.BorderRadius = 10;
             this.panelSidebar.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
@@ -137,19 +138,19 @@
             this.panelSidebar.Controls.Add(this.btnList);
             this.panelSidebar.Controls.Add(this.btnCreate);
             this.panelSidebar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelSidebar.Location = new System.Drawing.Point(0, 71);
+            this.panelSidebar.Location = new System.Drawing.Point(0, 89);
             this.panelSidebar.Name = "panelSidebar";
-            this.panelSidebar.Size = new System.Drawing.Size(240, 1009);
+            this.panelSidebar.Size = new System.Drawing.Size(240, 991);
             this.panelSidebar.TabIndex = 8;
             // 
             // lblMethodSidebar
             // 
             this.lblMethodSidebar.AutoSize = true;
-            this.lblMethodSidebar.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMethodSidebar.ForeColor = System.Drawing.Color.Blue;
+            this.lblMethodSidebar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMethodSidebar.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.lblMethodSidebar.Location = new System.Drawing.Point(12, 30);
             this.lblMethodSidebar.Name = "lblMethodSidebar";
-            this.lblMethodSidebar.Size = new System.Drawing.Size(103, 23);
+            this.lblMethodSidebar.Size = new System.Drawing.Size(112, 24);
             this.lblMethodSidebar.TabIndex = 12;
             this.lblMethodSidebar.Text = "Chức năng";
             // 
@@ -160,12 +161,12 @@
             this.btnList.BorderRadius = 10;
             this.btnList.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnList.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnList.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnList.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnList.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(191)))), ((int)(((byte)(219)))));
+            this.btnList.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(191)))), ((int)(((byte)(219)))));
             this.btnList.FillColor = System.Drawing.Color.Transparent;
-            this.btnList.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnList.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnList.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnList.ForeColor = System.Drawing.Color.DimGray;
+            this.btnList.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(191)))), ((int)(((byte)(219)))));
             this.btnList.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
             this.btnList.Image = ((System.Drawing.Image)(resources.GetObject("btnList.Image")));
             this.btnList.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -188,9 +189,9 @@
             this.btnCreate.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCreate.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnCreate.FillColor = System.Drawing.Color.Transparent;
-            this.btnCreate.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnCreate.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreate.ForeColor = System.Drawing.Color.DimGray;
+            this.btnCreate.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(191)))), ((int)(((byte)(219)))));
             this.btnCreate.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
             this.btnCreate.Image = ((System.Drawing.Image)(resources.GetObject("btnCreate.Image")));
             this.btnCreate.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;

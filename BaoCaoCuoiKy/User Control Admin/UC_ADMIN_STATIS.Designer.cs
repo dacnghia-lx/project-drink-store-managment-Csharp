@@ -131,9 +131,9 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(97, 88);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(189, 25);
+            this.label4.Size = new System.Drawing.Size(209, 25);
             this.label4.TabIndex = 2;
-            this.label4.Text = "Số lượng món ăn";
+            this.label4.Text = "Số lượng mặt hàng";
             // 
             // guna2GradientPanel4
             // 
@@ -319,7 +319,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(416, 25);
             this.label6.TabIndex = 0;
-            this.label6.Text = "Thống kê doanh thu theo tháng (2023)";
+            this.label6.Text = "Thống kê doanh thu theo tháng (2025)";
             // 
             // panel_Piechart
             // 
@@ -454,9 +454,9 @@
             this.label8.ForeColor = System.Drawing.Color.DimGray;
             this.label8.Location = new System.Drawing.Point(17, 28);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(259, 25);
+            this.label8.Size = new System.Drawing.Size(226, 25);
             this.label8.TabIndex = 0;
-            this.label8.Text = "Top 5 món ăn bán chạy";
+            this.label8.Text = "Top 5 món bán chạy";
             // 
             // UC_ADMIN_STATIS
             // 

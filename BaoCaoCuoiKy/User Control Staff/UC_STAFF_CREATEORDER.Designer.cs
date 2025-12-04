@@ -516,7 +516,7 @@
             // 
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(14, 331);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(17, 348);
             this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             this.guna2HtmlLabel7.Size = new System.Drawing.Size(94, 20);
@@ -527,7 +527,7 @@
             // 
             this.guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel21.Location = new System.Drawing.Point(16, 221);
+            this.guna2HtmlLabel21.Location = new System.Drawing.Point(14, 238);
             this.guna2HtmlLabel21.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel21.Name = "guna2HtmlLabel21";
             this.guna2HtmlLabel21.Size = new System.Drawing.Size(73, 20);
@@ -539,9 +539,9 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(228, 24);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(206, 3);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(186, 155);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(225, 200);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 32;
             this.guna2PictureBox1.TabStop = false;
@@ -551,7 +551,7 @@
             // 
             this.guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel17.Location = new System.Drawing.Point(16, 274);
+            this.guna2HtmlLabel17.Location = new System.Drawing.Point(19, 291);
             this.guna2HtmlLabel17.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel17.Name = "guna2HtmlLabel17";
             this.guna2HtmlLabel17.Size = new System.Drawing.Size(130, 18);
@@ -562,7 +562,7 @@
             // 
             this.lb_nameStaff.BackColor = System.Drawing.Color.Transparent;
             this.lb_nameStaff.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_nameStaff.Location = new System.Drawing.Point(158, 274);
+            this.lb_nameStaff.Location = new System.Drawing.Point(161, 291);
             this.lb_nameStaff.Margin = new System.Windows.Forms.Padding(4);
             this.lb_nameStaff.Name = "lb_nameStaff";
             this.lb_nameStaff.Size = new System.Drawing.Size(90, 18);
@@ -573,7 +573,7 @@
             // 
             this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel14.Location = new System.Drawing.Point(16, 299);
+            this.guna2HtmlLabel14.Location = new System.Drawing.Point(19, 316);
             this.guna2HtmlLabel14.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
             this.guna2HtmlLabel14.Size = new System.Drawing.Size(100, 18);
@@ -620,7 +620,7 @@
             // 
             this.lb_datePay.BackColor = System.Drawing.Color.Transparent;
             this.lb_datePay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_datePay.Location = new System.Drawing.Point(158, 299);
+            this.lb_datePay.Location = new System.Drawing.Point(161, 316);
             this.lb_datePay.Margin = new System.Windows.Forms.Padding(4);
             this.lb_datePay.Name = "lb_datePay";
             this.lb_datePay.Size = new System.Drawing.Size(149, 18);
@@ -631,7 +631,7 @@
             // 
             this.lb_table.BackColor = System.Drawing.Color.Transparent;
             this.lb_table.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_table.Location = new System.Drawing.Point(158, 249);
+            this.lb_table.Location = new System.Drawing.Point(161, 266);
             this.lb_table.Margin = new System.Windows.Forms.Padding(4);
             this.lb_table.Name = "lb_table";
             this.lb_table.Size = new System.Drawing.Size(83, 18);
@@ -653,7 +653,7 @@
             // 
             this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(16, 249);
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(19, 266);
             this.guna2HtmlLabel13.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
             this.guna2HtmlLabel13.Size = new System.Drawing.Size(30, 18);
@@ -674,24 +674,26 @@
             // guna2HtmlLabel11
             // 
             this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(261, 198);
+            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(262, 210);
             this.guna2HtmlLabel11.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
             this.guna2HtmlLabel11.Size = new System.Drawing.Size(107, 18);
             this.guna2HtmlLabel11.TabIndex = 21;
             this.guna2HtmlLabel11.Text = "SDT: 0123456789";
+            this.guna2HtmlLabel11.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2HtmlLabel10
             // 
             this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(175, 173);
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Italic);
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(161, 185);
             this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(287, 17);
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(313, 18);
             this.guna2HtmlLabel10.TabIndex = 20;
             this.guna2HtmlLabel10.Text = "235 Hoàng Quốc Việt, phường Nghĩa Đô, TP. Hà Nội";
+            this.guna2HtmlLabel10.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dg_infoPayment
             // 
@@ -726,11 +728,11 @@
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dg_infoPayment.DefaultCellStyle = dataGridViewCellStyle6;
             this.dg_infoPayment.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
-            this.dg_infoPayment.Location = new System.Drawing.Point(14, 370);
+            this.dg_infoPayment.Location = new System.Drawing.Point(14, 381);
             this.dg_infoPayment.Margin = new System.Windows.Forms.Padding(4);
             this.dg_infoPayment.Name = "dg_infoPayment";
             this.dg_infoPayment.RowHeadersVisible = false;
-            this.dg_infoPayment.Size = new System.Drawing.Size(577, 377);
+            this.dg_infoPayment.Size = new System.Drawing.Size(583, 366);
             this.dg_infoPayment.TabIndex = 20;
             this.dg_infoPayment.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.LightGrid;
             this.dg_infoPayment.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -943,7 +945,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.Controls.Add(this.guna2HtmlLabel19);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.guna2HtmlLabel18);
