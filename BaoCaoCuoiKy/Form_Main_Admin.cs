@@ -112,5 +112,10 @@ namespace BaoCaoCuoiKy
         {
 
         }
+
+        private void lb_name_admin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
