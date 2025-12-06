@@ -113,10 +113,9 @@ namespace BaoCaoCuoiKy
 
         }
 
-        private void btnManageAdmin_Click(object sender, EventArgs e)
+        private void lb_name_admin_Click(object sender, EventArgs e)
         {
-            UC_ADMIN_ADMIN uc = new UC_ADMIN_ADMIN();
-            addUserControl(uc);
+
         }
     }
 }

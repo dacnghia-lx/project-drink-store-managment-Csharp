@@ -220,7 +220,6 @@ namespace CoffeeShopManagement.User_Control_Staff
         private void HandleNoOpenTable()
         {
             createOrder();
-            
             showInfoPayment(true);
             setInfoPayment();
             resetFromCreate();

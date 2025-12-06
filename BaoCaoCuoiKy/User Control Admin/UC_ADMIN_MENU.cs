@@ -173,23 +173,6 @@ namespace BaoCaoCuoiKy.User_Control
             functionSave = "";
         }
 
-        private void btn_cancelSave_Click(object sender, EventArgs e)
-        {
-            var result = MessageBox.Show("Bạn chắc chắn không muốn lưu?", "Thông báo",
-                        MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-            {
-                btn_save.Enabled = false;
-                btnEdit.Enabled = false;
-                btnDelete.Enabled = false;
-                btnCreate.Enabled = true;
-                btnClear.Enabled = false;
-                textBoxId.Text = "";
-                functionSave = "";
-                isEnableTextBox(false);
-                clearData();
-            }
-        }
 
         public void addMenu()
         {

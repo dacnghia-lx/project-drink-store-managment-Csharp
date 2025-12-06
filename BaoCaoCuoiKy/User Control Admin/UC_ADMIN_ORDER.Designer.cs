@@ -167,51 +167,51 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 70);
+            this.label1.Location = new System.Drawing.Point(16, 59);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 18);
+            this.label1.Size = new System.Drawing.Size(87, 18);
             this.label1.TabIndex = 2;
             this.label1.Text = "Mã hóa đơn";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(641, 70);
+            this.label2.Location = new System.Drawing.Point(642, 59);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(149, 18);
+            this.label2.Size = new System.Drawing.Size(146, 18);
             this.label2.TabIndex = 4;
             this.label2.Text = "Nhân viên thanh toán";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(975, 67);
+            this.label4.Location = new System.Drawing.Point(976, 56);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 18);
+            this.label4.Size = new System.Drawing.Size(115, 18);
             this.label4.TabIndex = 8;
             this.label4.Text = "Ngày thanh toán";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1300, 67);
+            this.label5.Location = new System.Drawing.Point(1301, 56);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 18);
+            this.label5.Size = new System.Drawing.Size(115, 18);
             this.label5.TabIndex = 10;
             this.label5.Text = "Tổng thanh toán";
             // 
             // lblHeader
             // 
             this.lblHeader.AutoSize = true;
-            this.lblHeader.Font = new System.Drawing.Font("Roboto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeader.Location = new System.Drawing.Point(22, 54);
             this.lblHeader.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(353, 42);
+            this.lblHeader.Size = new System.Drawing.Size(383, 39);
             this.lblHeader.TabIndex = 27;
             this.lblHeader.Text = "THỐNG KÊ HOÁ ĐƠN";
             // 
@@ -246,9 +246,9 @@
             this.dateTimePickerPayment.BorderThickness = 1;
             this.dateTimePickerPayment.Checked = true;
             this.dateTimePickerPayment.FillColor = System.Drawing.Color.White;
-            this.dateTimePickerPayment.Font = new System.Drawing.Font("Roboto", 11.25F);
+            this.dateTimePickerPayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.dateTimePickerPayment.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dateTimePickerPayment.Location = new System.Drawing.Point(969, 92);
+            this.dateTimePickerPayment.Location = new System.Drawing.Point(970, 81);
             this.dateTimePickerPayment.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dateTimePickerPayment.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dateTimePickerPayment.Name = "dateTimePickerPayment";
@@ -268,10 +268,10 @@
             this.textBoxTotalPayment.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.textBoxTotalPayment.FillColor = System.Drawing.Color.WhiteSmoke;
             this.textBoxTotalPayment.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textBoxTotalPayment.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTotalPayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxTotalPayment.ForeColor = System.Drawing.Color.Black;
             this.textBoxTotalPayment.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textBoxTotalPayment.Location = new System.Drawing.Point(1303, 92);
+            this.textBoxTotalPayment.Location = new System.Drawing.Point(1304, 81);
             this.textBoxTotalPayment.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxTotalPayment.Name = "textBoxTotalPayment";
             this.textBoxTotalPayment.PasswordChar = '\0';
@@ -294,10 +294,10 @@
             this.textBoxStaffName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.textBoxStaffName.FillColor = System.Drawing.Color.WhiteSmoke;
             this.textBoxStaffName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textBoxStaffName.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxStaffName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxStaffName.ForeColor = System.Drawing.Color.Black;
             this.textBoxStaffName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textBoxStaffName.Location = new System.Drawing.Point(644, 92);
+            this.textBoxStaffName.Location = new System.Drawing.Point(645, 81);
             this.textBoxStaffName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxStaffName.Name = "textBoxStaffName";
             this.textBoxStaffName.PasswordChar = '\0';
@@ -320,10 +320,10 @@
             this.textBoxStaffId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.textBoxStaffId.FillColor = System.Drawing.Color.WhiteSmoke;
             this.textBoxStaffId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textBoxStaffId.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxStaffId.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxStaffId.ForeColor = System.Drawing.Color.Black;
             this.textBoxStaffId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textBoxStaffId.Location = new System.Drawing.Point(324, 92);
+            this.textBoxStaffId.Location = new System.Drawing.Point(325, 81);
             this.textBoxStaffId.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxStaffId.Name = "textBoxStaffId";
             this.textBoxStaffId.PasswordChar = '\0';
@@ -346,10 +346,10 @@
             this.textBoxOrderId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.textBoxOrderId.FillColor = System.Drawing.Color.WhiteSmoke;
             this.textBoxOrderId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textBoxOrderId.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxOrderId.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxOrderId.ForeColor = System.Drawing.Color.Black;
             this.textBoxOrderId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textBoxOrderId.Location = new System.Drawing.Point(18, 92);
+            this.textBoxOrderId.Location = new System.Drawing.Point(19, 81);
             this.textBoxOrderId.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxOrderId.Name = "textBoxOrderId";
             this.textBoxOrderId.PasswordChar = '\0';
@@ -363,19 +363,19 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label10.Location = new System.Drawing.Point(14, 16);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(232, 23);
+            this.label10.Size = new System.Drawing.Size(250, 24);
             this.label10.TabIndex = 23;
             this.label10.Text = "Thông tin chi tiết hoá đơn";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(15, 88);
+            this.label11.Location = new System.Drawing.Point(16, 77);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(0, 18);
@@ -384,10 +384,10 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(321, 70);
+            this.label9.Location = new System.Drawing.Point(322, 59);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(96, 18);
+            this.label9.Size = new System.Drawing.Size(95, 18);
             this.label9.TabIndex = 5;
             this.label9.Text = "Mã nhân viên";
             // 
@@ -417,7 +417,7 @@
             this.btnClearFilter.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnClearFilter.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnClearFilter.FillColor = System.Drawing.Color.Red;
-            this.btnClearFilter.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnClearFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnClearFilter.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnClearFilter.Location = new System.Drawing.Point(376, 99);
             this.btnClearFilter.Name = "btnClearFilter";
@@ -436,7 +436,7 @@
             this.comboBoxMonth.FillColor = System.Drawing.Color.WhiteSmoke;
             this.comboBoxMonth.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.comboBoxMonth.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.comboBoxMonth.Font = new System.Drawing.Font("Roboto", 12F);
+            this.comboBoxMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.comboBoxMonth.ForeColor = System.Drawing.Color.Black;
             this.comboBoxMonth.ItemHeight = 36;
             this.comboBoxMonth.Location = new System.Drawing.Point(110, 99);
@@ -458,23 +458,23 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(15, 70);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(71, 19);
+            this.label8.Size = new System.Drawing.Size(79, 20);
             this.label8.TabIndex = 43;
             this.label8.Text = "Lọc theo";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label6.Location = new System.Drawing.Point(14, 16);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(176, 23);
+            this.label6.Size = new System.Drawing.Size(193, 24);
             this.label6.TabIndex = 23;
             this.label6.Text = "Danh sách hoá đơn";
             // 
@@ -504,12 +504,12 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label18.Location = new System.Drawing.Point(14, 16);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(113, 23);
+            this.label18.Size = new System.Drawing.Size(121, 24);
             this.label18.TabIndex = 23;
             this.label18.Text = "Chi tiết món";
             // 
@@ -524,14 +524,14 @@
             // 
             // UC_ADMIN_ORDER
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.panelControl);
             this.Controls.Add(this.lblHeader);
-            this.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_ADMIN_ORDER";
             this.Size = new System.Drawing.Size(1920, 1080);
