@@ -120,6 +120,12 @@
     <None Include="Global.cs.example" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User Control Admin\UC_ADMIN_ADMIN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control Admin\UC_ADMIN_ADMIN.Designer.cs">
+      <DependentUpon>UC_ADMIN_ADMIN.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Control Admin\UC_ADMIN_ORDER.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -188,6 +194,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="User Control Admin\UC_ADMIN_ADMIN.resx">
+      <DependentUpon>UC_ADMIN_ADMIN.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User Control Admin\UC_ADMIN_ORDER.resx">
       <DependentUpon>UC_ADMIN_ORDER.cs</DependentUpon>
       <SubType>Designer</SubType>

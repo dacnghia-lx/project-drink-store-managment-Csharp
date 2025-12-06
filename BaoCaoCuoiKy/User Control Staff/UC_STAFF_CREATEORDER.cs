@@ -220,9 +220,10 @@ namespace CoffeeShopManagement.User_Control_Staff
         private void HandleNoOpenTable()
         {
             createOrder();
-            resetFromCreate();
+            
             showInfoPayment(true);
             setInfoPayment();
+            resetFromCreate();
         }
 
         private void HandleCombineTable()
@@ -232,8 +233,8 @@ namespace CoffeeShopManagement.User_Control_Staff
             {
                 global.notify("Gộp bàn thành công");
                 showInfoPayment(true);
-                resetFromCreate();
                 setInfoPayment();
+                resetFromCreate();
             }
         }
 
@@ -244,8 +245,8 @@ namespace CoffeeShopManagement.User_Control_Staff
             {
                 global.notify("Mở bàn thành công");
                 showInfoPayment(true);
-                resetFromCreate();
                 setInfoPayment();
+                resetFromCreate();
             }
         }
 

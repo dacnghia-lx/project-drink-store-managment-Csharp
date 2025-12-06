@@ -44,17 +44,17 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(713, 40);
+            this.lblTitle.ForeColor = System.Drawing.Color.DimGray;
+            this.lblTitle.Location = new System.Drawing.Point(642, 45);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(552, 42);
+            this.lblTitle.Size = new System.Drawing.Size(668, 42);
             this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "Quản lý quán cà phê Tình Bạn";
+            this.lblTitle.Text = "Quản lý quán đồ uống Rouma House";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel1.BackColor = System.Drawing.Color.AliceBlue;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.picLogo);
             this.panel1.Controls.Add(this.lblTitle);
@@ -65,9 +65,9 @@
             // 
             // picLogo
             // 
-            this.picLogo.Image = global::CoffeeShopManagement.Properties.Resources.Simple_Coffee_Cup_Logo_Template_Download_on_Pngtree;
+            this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
             this.picLogo.InitialImage = global::CoffeeShopManagement.Properties.Resources.Simple_Coffee_Cup_Logo_Template_Download_on_Pngtree;
-            this.picLogo.Location = new System.Drawing.Point(0, -3);
+            this.picLogo.Location = new System.Drawing.Point(-2, -2);
             this.picLogo.Name = "picLogo";
             this.picLogo.Size = new System.Drawing.Size(137, 128);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
