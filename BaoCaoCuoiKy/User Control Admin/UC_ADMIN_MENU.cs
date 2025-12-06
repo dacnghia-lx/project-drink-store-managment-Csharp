@@ -56,7 +56,6 @@ namespace BaoCaoCuoiKy.User_Control
                 btnEdit.Enabled = true;
                 btnDelete.Enabled = true;
                 btn_save.Enabled = false;
-                btn_cancelSave.Enabled = false;
             }
         }
 
@@ -107,7 +106,6 @@ namespace BaoCaoCuoiKy.User_Control
         {
             isEnableTextBox(true);
             btn_save.Enabled = true;
-            btn_cancelSave.Enabled = true;
             btnDelete.Enabled = false;
             btnEdit.Enabled = false;
             btnEdit.Enabled = true;
@@ -121,7 +119,6 @@ namespace BaoCaoCuoiKy.User_Control
             textBoxId.Text = global.autoIncrementId(id);
             isEnableTextBox(true);
             btn_save.Enabled = true;
-            btn_cancelSave.Enabled = true;
             btnEdit.Enabled = false;
             btnDelete.Enabled = false;
             btnClear.Enabled = true;
@@ -136,7 +133,6 @@ namespace BaoCaoCuoiKy.User_Control
                         MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
-                    btn_cancelSave.Enabled = false;
                     btn_save.Enabled = false;
                     btnEdit.Enabled = false;
                     btnDelete.Enabled = false;
@@ -170,7 +166,6 @@ namespace BaoCaoCuoiKy.User_Control
             }
             isEnableTextBox(false);
             btn_save.Enabled = false;
-            btn_cancelSave.Enabled = false;
             btnEdit.Enabled = false;
             btnDelete.Enabled = false;
             btnClear.Enabled = false;
@@ -184,7 +179,6 @@ namespace BaoCaoCuoiKy.User_Control
                         MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
-                btn_cancelSave.Enabled = false;
                 btn_save.Enabled = false;
                 btnEdit.Enabled = false;
                 btnDelete.Enabled = false;
@@ -259,7 +253,6 @@ namespace BaoCaoCuoiKy.User_Control
         private void disableButton()
         {
             btn_save.Enabled = false;
-            btn_cancelSave.Enabled = false;
             btnEdit.Enabled = false;
             btnDelete.Enabled = false;
             btnClear.Enabled = false;
