@@ -204,13 +204,12 @@ namespace BaoCaoCuoiKy
             // 
             // lblInfoName
             // 
-            this.lblInfoName.AutoSize = true;
             this.lblInfoName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblInfoName.ForeColor = System.Drawing.Color.Black;
-            this.lblInfoName.Location = new System.Drawing.Point(61, 217);
+            this.lblInfoName.Location = new System.Drawing.Point(13, 207);
             this.lblInfoName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInfoName.Name = "lblInfoName";
-            this.lblInfoName.Size = new System.Drawing.Size(86, 18);
+            this.lblInfoName.Size = new System.Drawing.Size(210, 18);
             this.lblInfoName.TabIndex = 14;
             this.lblInfoName.Text = "nameAdmin";
             this.lblInfoName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -317,13 +316,13 @@ namespace BaoCaoCuoiKy
             // 
             // lb_name_admin
             // 
-            this.lb_name_admin.AutoSize = true;
+            this.lb_name_admin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lb_name_admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lb_name_admin.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lb_name_admin.Location = new System.Drawing.Point(1607, 24);
+            this.lb_name_admin.Location = new System.Drawing.Point(1536, 25);
             this.lb_name_admin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_name_admin.Name = "lb_name_admin";
-            this.lb_name_admin.Size = new System.Drawing.Size(103, 20);
+            this.lb_name_admin.Size = new System.Drawing.Size(222, 20);
             this.lb_name_admin.TabIndex = 3;
             this.lb_name_admin.Text = "nameAdmin";
             this.lb_name_admin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -331,6 +330,7 @@ namespace BaoCaoCuoiKy
             // 
             // btnExitWindow
             // 
+            this.btnExitWindow.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExitWindow.Animated = true;
             this.btnExitWindow.BackColor = System.Drawing.Color.Transparent;
             this.btnExitWindow.BorderColor = System.Drawing.Color.IndianRed;
